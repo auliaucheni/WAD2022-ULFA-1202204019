@@ -1,0 +1,99 @@
+.nav-item:hover a {
+    color: pink;
+}
+.logocheni {
+    width: 105px;
+}
+.EADVideo iframe{
+    width: 60%;
+    height: 400px;
+}
+.TentangKami {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.TentangKami h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.EADLokasi {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.EADLokasi h1 {
+    font-size: 30px;
+    margin-bottom: 30px; 
+}
+.jenis h1 {
+    font-size: 30px;
+    margin-bottom: 30px; 
+}
+.PendaftaranMBL h1 {
+    font-size: 30px;
+    margin-bottom: 30px; 
+}
+.PendaftaranMBL {
+    padding-top: 30px;
+}
+.gmap_canvas {
+    display: flex;
+    justify-content: center;
+}
+.card1 {
+    display: flex;
+    justify-content: space-around;
+}
+.card2 {
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+    background-color: #ddecf4;
+    display: flex;
+    justify-content: center;
+}
+.PendaftaranMBL {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.PendaftaranMBL .email{
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 15px;
+}
+.PendaftaranMBL .nama{
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 15px;
+}
+.PendaftaranMBL .nohp{
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 15px;
+}
+.PendaftaranMBL .alamat{
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 15px;
+}
+.PendaftaranMBL .email{
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 15px;
+}
