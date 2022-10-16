@@ -1,5 +1,5 @@
 .nav-item:hover a {
-    color: pink;
+    color: rgb(153, 36, 100);
 }
 .logocheni {
     width: 105px;
@@ -48,7 +48,7 @@
     justify-content: space-around;
 }
 footer {
-    background-color: #ddecf4;
+    background-color: #8b0d61;
     display: flex;
     justify-content: center;
 }
@@ -97,3 +97,5 @@ footer {
     border: 1px solid grey;
     padding-left: 15px;
 }
+
+
