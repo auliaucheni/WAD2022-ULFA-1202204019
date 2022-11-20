@@ -62,7 +62,7 @@
                         </li>
                         <li class="m-1">
                             <label for="booking">Book Date</label><br>
-                            <input class="form-control" type="" name="booking" id="booking">
+                            <input class="form-control" type="date" name="booking" id="booking">
                         </li>
                         <li class="m-1">
                             <label for="waktu">Start Time</label><br>
@@ -93,9 +93,9 @@
                         </li>
                         <li class="m-1">
                             <label for="service">Add Service(s)</label><br>
-                            <input class="form-check-input m-1" type="kbox" name="ser[]" value="Health protocol" id="health"><label class="form-check-label" for="health">Health protocol / Rp25.000</label><br>
-                            <input class="form-check-input m-1" type="kbox" name="ser[]" value="Driver" id="driver"><label class="form-check-label" for="driver">Driver / Rp100.000</label><br>
-                            <input class="form-check-input m-1" type="kbox" name="ser[]" value="Fuel Filled" id="fuel"><label class="form-check-label" for="fuel">Fuel Filled / Rp250.000</label><br>
+                            <input class="form-check-input m-1" type="checkbox" name="ser[]" value="Health protocol" id="health"><label class="form-check-label" for="health">Health protocol / Rp25.000</label><br>
+                            <input class="form-check-input m-1" type="checkbox" name="ser[]" value="Driver" id="driver"><label class="form-check-label" for="driver">Driver / Rp100.000</label><br>
+                            <input class="form-check-input m-1" type="checkbox" name="ser[]" value="Fuel Filled" id="fuel"><label class="form-check-label" for="fuel">Fuel Filled / Rp250.000</label><br>
                         </li>
                         <li class="text-center">
                             <div class="d-grid gap-2">

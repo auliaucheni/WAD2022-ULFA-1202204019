@@ -56,7 +56,7 @@
       </ul>
       <div class="d-flex justify-content-center">
         <form action="ulfa_Booking.php">
-          <button type="submit" value="ayla.jpg" name="img" class="btn btn-primary">Book Now</button>
+          <button type="submit" value="ayla.png" name="img" class="btn btn-primary">Book Now</button>
         </form>
       </div>
     </div>
