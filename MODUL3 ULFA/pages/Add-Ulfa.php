@@ -30,7 +30,7 @@
     <div class="container">
       <h1 class="tambahh1">Tambah Mobil</h1>
       <p class="tambahp">Tambah Mobil Baru Anda Ke List Show Room</p>
-      <form action="../config/insert.php" method="POST" enctype="multipart/form-data">
+      <form action="../config/add.php" method="POST" enctype="multipart/form-data">
         <label for="nama">Nama Mobil</label>
         <input type="text" id="nama" name="nama" placeholder="Masukkan Nama Mobil">
         <label for="pemilik">Nama Pemilik</label>
