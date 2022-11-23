@@ -2,7 +2,7 @@
 require '../config/connector.php';
 
 $sqlquery = "SELECT * FROM showroom_ulfa_table";
-$result = mysqli_query($conn, $sqlquery);
+$result = mysqli_query($connector, $sqlquery);
 
 $checkrow = mysqli_num_rows($result);
 
