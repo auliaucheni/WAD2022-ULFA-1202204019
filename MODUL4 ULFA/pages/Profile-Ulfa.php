@@ -119,7 +119,7 @@ if (isset($_POST["update"])) {
                         <div class="col-sm-10">
                             <select class="form-select text-muted" aria-label="Warna Navbar" id="warna_navbar" name="warna_navbar">
                                 <?php foreach ($pilihan_warna as $warna => $value) : ?>
-                                    <?php $selected = $warna == $_COOKIE["warna_navbar"] ? "selected" : "" ?>
+                                    <?php $select = $warna == $_COOKIE["warna_navbar"] ? "selected" : "" ?>
                                     <option value="<?= $warna; ?>" <?= $selected; ?>><?= $value; ?></option>
                                 <?php endforeach; ?>
                             </select>
