@@ -68,7 +68,7 @@ function cekdb($result) {
         <div class="d-flex gap-5 bungkus justify-content-center align-items-center">
           <div>
             <h1>Selamat Datang<br /> Di Show Room Cheni</h1>
-            <p class="mt-3">Showroom ini bergerak dalam bidang jual-beli mobil.<br /> Anda dapat menikmati puasnya berbelanja bersama kami. </p>
+            <p>Showroom ini bergerak dalam bidang jual-beli mobil.<br /> Anda dapat menikmati puasnya berbelanja bersama kami. </p>
             <a href="<?php cekdb($result) ?>" class="button btn-primary">MyCar</a>
             <div class="d-flex align-items-center gap-5 mt-5">
               <img src="<?php echo "asset/images/logo-ead.png" ?>" alt="logoead" style="width:100px;">
