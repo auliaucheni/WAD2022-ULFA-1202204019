@@ -21,10 +21,10 @@ class ShowroomController extends Controller
     public function addCar(Request $request)
     {
         $data = $request->all();
-        $img = Storage::disk('public')->put('img', $request->file('image'));
+        $img = Storage::disk('public')->put('img', $request->file('images'));
 
         Showrooms::create([
-            'id_user' => $data['id_user'],
+            'id_user' => $data['user'],
             'name' => $data['name'],
             'brand' => $data['brand'],
             'purchase_date' => $data['purchase_date'],

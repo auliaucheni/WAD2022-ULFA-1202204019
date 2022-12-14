@@ -32,7 +32,7 @@ Route::get('/profile/{id}', [UserController::class, 'userDetail'])->name('userDe
 
 // ==================== Showroom Route ====================
 Route::post('addCar', [ShowroomController::class, 'addCar'])->name('addCar.post');
-Route::get('/list', [ShowroomController::class, 'showCar'])->name('showCar');
+Route::get('/list{id}', [ShowroomController::class, 'showCar'])->name('showCar');
 Route::get('/detail/{id}', [ShowroomController::class, 'carDetail'])->name('carDetail');
 Route::put('/detail/{id}', [ShowroomController::class, 'editCar'])->name('updateCar.put');
 Route::delete('list/{id}', [ShowroomController::class, 'deleteCar']);
